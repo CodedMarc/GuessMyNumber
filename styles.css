@@ -81,8 +81,10 @@ input[type="number"] {
 }
 @media screen and (max-width: 797px) {
   .guesses-container {
-    top: 65%;
+    text-align: center;
+    top: 69%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
   }
 }
